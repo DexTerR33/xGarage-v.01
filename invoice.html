@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/invoice.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>-->
+    <title>Invoice</title>
+</head>
+
+<body>
+    <div class="topText" style="display:flex; justify-content: center; padding: 3px;  background-color:crimson; color:white;">
+        <h4 class="telnrtop" style="margin: 2px 30px 0; font-size: 14px; text-align: end;"> <i class="fas fa-phone-alt fa-md fa-fw" aria-hidden="true" style="margin-right: 5px;"></i>+44 765 965 154 89
+        </h4>
+    </div>
+    <header class="header">
+        <div class="header-nav">
+            <div class="logo">
+                <img src="./png/Logo3.png" alt="logo" width="90px" height="40px">
+                <h2 class="textlogo ">Motor Repair</h2>
+            </div>
+            <div class="itemsNav">
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <div class="iconGroupTopNav">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </div>
+                            <div class="text"> <span data-text="Home ">Home</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./invoice.html">
+                            <div class="iconGroupTopNav">
+                                <i class="fas fa-comment-dollar" aria-hidden="true"></i>
+                            </div>
+                            <div class="text"> <span data-text="Invoice">Invoice</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./">
+                            <div class="iconGroupTopNav">
+                                <i class="far fa-address-card" aria-hidden="true"></i>
+
+                            </div>
+                            <div class="text"><span data-text="services">Customers</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="iconGroupTopNav">
+                                <i class="fas fa-car-crash" aria-hidden="true"></i>
+
+                            </div>
+                            <div class="text"><span data-text="Portflio">Contact</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./admin.html">
+                            <div class="iconGroupTopNav">
+                                <i class="fas fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <div class="text"><span data-text="Contact">Admin</span></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <br>
+    <div class="container-fluid">
+
+        <div>
+            <input type="button" value="Create Invoice" class="btns">
+        </div>
+        <h1>INVOICE</h1>
+        <div>Invoice Number: #254</div>
+
+
+        <div class="topCompany">
+
+            <div class="company" class="clearfix">
+
+                <div>F&A Motor Repairs</div>
+                <div>Unit 3, Rodney Road<br /> Southsea Works</div>
+                <div>PO4 8SP</div>
+                <div>07706951897</div>
+                <div><a href="mailto:alecuSmecheru@gmail.com">alecuSmecheru@gmail.com</a></div>
+            </div>
+            <div class="project">
+                <div> <b> Invoice to: </b></div>
+                <div><span>VEHICLE:</span> reg nr auto</div>
+                <div><span>CLIENT:</span> Numele automatic</div>
+                <div><span>ADDRESS:</span> 796 Silver Harbour, TX 79273, US</div>
+                <div><span>DATE:</span> August 17, 2015</div>
+                <div><span><b>MILEAGE:</b></span> 250,565</div>
+            </div>
+        </div>
+        <main class="invoice">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="service">SERVICE</th>
+                        <th class="desc"></th>
+                        <th>PRICE</th>
+                        <th>QTY</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="service">Product</td>
+                        <td class="desc">dasdasd</td>
+                        <td class="unit">$40.00</td>
+                        <td class="qty">26</td>
+                        <td class="total">$1,040.00</td>
+                    </tr>
+                    <tr>
+                        <td class="service">Development</td>
+                        <td class="desc">Developing a Content Management System-based Website</td>
+                        <td class="unit">$40.00</td>
+                        <td class="qty">80</td>
+                        <td class="total">$3,200.00</td>
+                    </tr>
+                    <tr>
+                        <td class="service">SEO</td>
+                        <td class="desc">Optimize the site for search engines (SEO)</td>
+                        <td class="unit">$40.00</td>
+                        <td class="qty">20</td>
+                        <td class="total">$800.00</td>
+                    </tr>
+                    <tr>
+                        <td class="service">Training</td>
+                        <td class="desc">Initial training sessions for staff responsible for uploading web content</td>
+                        <td class="unit">$40.00</td>
+                        <td class="qty">4</td>
+                        <td class="total">$160.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">SUBTOTAL</td>
+                        <td class="total">$5,200.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">TAX 20%</td>
+                        <td class="total">$1,300.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="grand total">GRAND TOTAL</td>
+                        <td class="grand total">$6,500.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="notices">
+                <div>NOTICE:</div>
+                <div class="notice">A finance charge of 1.5% will be made on unpaid balances after 30 days.</div>
+            </div>
+        </main>
+        <br>
+        <footer>
+            Invoice was created on a computer and is valid without the signature and seal.
+        </footer>
+    </div>
+</body>
+
+</html>

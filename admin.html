@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Document</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #494949;
+        }
+        
+        @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+        .box {
+            max-width: 300px;
+            margin: 300px auto;
+            display: block;
+            padding: 10px;
+            box-shadow: 0 0 8px 0 #23272a85;
+            background: rgb(212, 212, 212);
+            border-radius: 2%;
+            text-align: center;
+        }
+        
+        .container {
+            padding: 0 30px;
+        }
+        
+        input[type=text],
+        input[type=password] {
+            height: 27px;
+            margin-bottom: 6px;
+            border: 1px solid #66717f67;
+            font-size: 10px;
+            padding-left: 27px;
+        }
+        
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            box-shadow: 0 0 8px 0 #23272a85;
+            border-color: #23272a62;
+            outline: none;
+        }
+        
+        input[type="text"]:focus+i,
+        input[type="password"]:focus+i {
+            color: crimson;
+            transition: 0.9s;
+        }
+        /* Set a style for all buttons */
+        
+        .btn {
+            background-color: #353535;
+            color: white;
+            margin: 8px auto;
+            border: none;
+            cursor: pointer;
+            width: 90px;
+            font-size: 12px;
+        }
+        
+        .btn:hover {
+            background-color: crimson;
+        }
+        
+        .bottomBox {
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            align-items: center;
+        }
+        
+        .form-group i {
+            position: absolute;
+            padding: 3px 10px;
+            color: #393e46;
+            font-size: 14px;
+            left: 0;
+            top: 4px;
+        }
+        
+        .form-group {
+            position: relative;
+            margin: 0;
+        }
+        
+        .form-group i {
+            font-size: 12px;
+        }
+        
+        .checkeD {
+            align-items: center;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 20px;
+            text-align: center;
+            color: #ffffff;
+            padding: 8px;
+            background-color: #353535;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="box">
+            <h2>Login</h2>
+            <div class="container">
+
+                <div class="form-group">
+                    <input type="text" placeholder="Username" name="uname" required class="form-control">
+                    <i class="fas fa-user fa-md fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" name="password" required class="form-control">
+                    <i class="fas fa-unlock-alt fa-md fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="bottomBox">
+                    <span class="psw">Forgot <a href="./index.html">password?</a></span>
+                    <span class="checkeD"><input type="checkbox" checked="checked" name="remember"> Remember me</span>
+
+
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btn">Call Us!</button>
+
+            </div>
+
+        </div>
+
+</body>
+
+</html>

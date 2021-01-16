@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+
+    <h2>HTML Forms</h2>
+
+
+    <style>
+        .formAll {
+            background-color: red;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .btnnn {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .btnnn:hover {
+            background-color: yellow;
+            color: black;
+        }
+        
+        .btnnn:active {
+            background-color: green;
+        }
+        
+        #btn {
+            background-color: red;
+        }
+    </style>
+
+    sc
+
+
+    <form action="/action_page.php" class="formAll">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+    </form>
+    <input type="submit" value="Submit" class="btnnn" id="bn">
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+
+
+</body>
+
+</html>
